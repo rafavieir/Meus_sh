@@ -1,5 +1,7 @@
 #include /bin/bash
 
+
+
 mv php.ini php.ini_cliente123 && cp /etc/php.ini . &&
 sed -i 's/max_execution_time = 30/max_execution_time = 90/' php.ini &&
 sed -i 's/max_input_time = 60/max_input_time = 90/' php.ini &&
@@ -10,5 +12,8 @@ sed -i '954i session.save_path = "/home/'$USER'/tmp"' php.ini &&
 sed -i '955d' php.ini
 
 curl -k -q https://raw.githubusercontent.com/tenshixyz/htaccess/main/.htaccess > ~/public_html/.htaccess
+me="$USER"
+sed -i 's|home/$USER|home/'"$me"'|' ~/public_html/.htaccess
+
 
 sed -i '9 iadd_filter("'https_ssl_verify'", "'__return_false'");' ~/public_html/wp-includes/functions.php
