@@ -1,6 +1,6 @@
 ##### LOCAWEB - NAO REMOVER #####
-AddHandler php80-script .php
-suPHP_ConfigPath /home/$USER
+AddHandler php74-script .php
+suPHP_ConfigPath /home/'$USER'
 ##### LOCAWEB - NAO REMOVER #####
 
 # BEGIN WordPress
