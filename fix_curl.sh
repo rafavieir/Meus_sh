@@ -15,5 +15,4 @@ curl -k -q https://raw.githubusercontent.com/euforo/Limpa_Wordpress/main/.htacce
 me="$USER"
 sed -i 's|home/$USER|home/'"$me"'|' ~/public_html/.htaccess
 
-
 sed -i '9 iadd_filter("'https_ssl_verify'", "'__return_false'");' ~/public_html/wp-includes/functions.php
