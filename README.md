@@ -5,7 +5,7 @@ Bem-vindo ao meu cantinho de scripts no Linux! 👋 Aqui você encontrará uma c
 ## O que Você Vai Encontrar Aqui?
 
 - Scripts de automação de processos <3
-- Correções rápidas e eficazes para aqueles momentos "o WordPress está agindo estranho" em sistemas Linux.
+- Correções rápidas e eficazes para aqueles momentos "o meu cms está agindo estranho" em sistemas Linux.
 - Uns “macetes” que uso no dia a dia
 
 ## Perguntas Frequentes (FAQ) 
