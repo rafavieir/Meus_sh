@@ -9,7 +9,7 @@ sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 512M/' php.ini &&
 sed -i '954i session.save_path = "/home/'$USER'/tmp"' php.ini &&
 sed -i '955d' php.ini
 
-curl -k -q https://raw.githubusercontent.com/euforo/Limpa_Wordpress/main/.htaccess > ~/public_html/.htaccess
+curl -k -q https://raw.githubusercontent.com/euforo/Meus_sh/main/.htaccess > ~/public_html/.htaccess
 me="$USER"
 sed -i 's|home/$USER|home/'"$me"'|' ~/public_html/.htaccess
 
