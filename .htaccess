@@ -1,7 +1,7 @@
-##### LOCAWEB - NAO REMOVER #####
+##### NAO REMOVER #####
 AddHandler php74-script .php
 suPHP_ConfigPath /home/$USER
-##### LOCAWEB - NAO REMOVER #####
+##### NAO REMOVER #####
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
