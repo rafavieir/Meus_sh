@@ -8,6 +8,7 @@ Bem-vindo ao meu cantinho de scripts no Linux! 👋 Aqui você encontrará uma c
 - Correções rápidas e eficazes para aqueles momentos "o meu CMS está agindo estranho" em sistemas Linux.
 - Uns “macetes” que uso no dia a dia
 
+
 ## Como Usar
 
 ```R: Você vai encontrar diversas formas de fazer isso, vou deixar as duas que utilizo aqui em baixo:
