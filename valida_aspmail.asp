@@ -9,8 +9,8 @@ If Request.ServerVariables("REQUEST_METHOD") = "POST" Then
     Dim AspEmail, nomeRemetente, emailRemetente, emailRetorno, assunto, servidor
     
     nomeRemetente = "Lw teste"
-    emailRemetente = "locaweb@www191.locaweb.com.br"
-    emailRetorno = "locaweb@www191.locaweb.com.br"
+    emailRemetente = "myemailtest63@gmail.com"
+    emailRetorno = "myemailtest63@gmail.com"
     assunto = "Teste AspEmail"
     servidor = "localhost"
     
