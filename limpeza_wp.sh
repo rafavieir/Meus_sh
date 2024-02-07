@@ -2,13 +2,13 @@
 
 limpeza_wp() {
     mv public_html public_html_old
-    echo "... pasta public renomeada\n"
+    echo "... pasta public renomeada \n"
     mkdir public_html
-    echo "... pasta public recriada\n"
+    echo "... pasta public recriada \n"
     cd public_html
     curl -SO https://br.wordpress.org/latest-pt_BR.zip && unzip latest-pt_BR.zip && rm latest-pt_BR.zip && mv wordpress/* . && rm -r wordpress
     curl -q https://raw.githubusercontent.com/euforo/Meus_sh/main/htacc.sh > ht.sh && sh ht.sh
-    echo "... wp e htaccess renovados\n"
+    echo "... wp e htaccess renovados \n"
     rm ht.sh
     rm -r wp-content
     
